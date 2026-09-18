@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nome Evento | Eventi2027</title>
+    <meta name="description" content="Dettagli e biglietti per [Nome Evento]">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Outfit:wght@500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Stili specifici per la pagina dettaglio */
+        .event-detail-header {
+            padding: 120px 0 60px;
+            text-align: center;
+            background: linear-gradient(to bottom, rgba(11, 15, 25, 0), rgba(11, 15, 25, 1)), 
+                        url('https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80') center/cover;
+        }
+        .event-detail-content {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 4rem;
+            margin-top: 2rem;
+        }
+        .affiliate-box {
+            background: var(--surface-color);
+            padding: 2rem;
+            border-radius: var(--radius-lg);
+            border: 1px solid rgba(255,255,255,0.1);
+            position: sticky;
+            top: 100px;
+        }
+        .affiliate-box h3 { margin-bottom: 1.5rem; }
+        
+        @media (max-width: 768px) {
+            .event-detail-content { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- NAVBAR (Uguale alla Home) -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">Eventi<span>2027</span></a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- HEADER EVENTO (Sostituisci l'URL dell'immagine di sfondo nel tag <style> sopra) -->
+    <header class="event-detail-header">
+        <div class="container">
+            <span class="badge">Sport</span>
+            <h1>Titolo dell'Evento Qui</h1>
+            <p class="date">📅 29 Maggio 2027 • Milano</p>
+        </div>
+    </header>
+
+    <!-- CONTENUTO PRINCIPALE -->
+    <main class="container section">
+        <div class="event-detail-content">
+            
+            <!-- DESCRIZIONE EVENTO -->
+            <div class="event-description">
+                <h2>Cosa ti aspetta</h2>
+                <p>Scrivi qui la descrizione dell'evento. Ricordati che l'obiettivo è convincere le persone a cliccare sui bottoni qui a lato per comprare il biglietto o prenotare l'hotel.</p>
+                <p>Usa paragrafi brevi e cerca di inserire parole chiave utili per farti trovare su Google (es. "biglietti finale champions league 2027", "dove dormire a milano per la finale").</p>
+                <br>
+                <h3>Informazioni Pratiche</h3>
+                <ul>
+                    <li><strong>Apertura cancelli:</strong> ore 18:00</li>
+                    <li><strong>Mezzi consigliati:</strong> Metro linea rossa</li>
+                </ul>
+            </div>
+
+            <!-- BOX AFFILIAZIONI (Monetizzazione) -->
+            <aside>
+                <div class="affiliate-box">
+                    <h3>Partecipa all'Evento</h3>
+                    
+                    <!-- LINK AFFILIATO BIGLIETTI -->
+                    <p style="margin-bottom: 1rem; font-size: 0.9rem; color: var(--text-muted);">Acquista dai rivenditori ufficiali:</p>
+                    <a href="INCOLLA_QUI_IL_TUO_LINK_AFFILIATO_TICKETONE" target="_blank" class="btn btn-primary" style="width:100%; margin-bottom: 1.5rem;">
+                        🎟️ Acquista Biglietto
+                    </a>
+
+                    <hr style="border-color: rgba(255,255,255,0.1); margin-bottom: 1.5rem;">
+
+                    <!-- LINK AFFILIATO HOTEL -->
+                    <p style="margin-bottom: 1rem; font-size: 0.9rem; color: var(--text-muted);">Vieni da fuori? Trova dove dormire:</p>
+                    <a href="INCOLLA_QUI_IL_TUO_LINK_AFFILIATO_BOOKING" target="_blank" class="btn btn-secondary" style="width:100%; margin-bottom: 0.5rem;">
+                        🏨 Hotel Vicini
+                    </a>
+                    
+                    <p style="font-size: 0.75rem; color: var(--text-muted); margin-top: 1.5rem; text-align: center;">
+                        I link presenti in questo box sono link affiliati.
+                    </p>
+                </div>
+            </aside>
+
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-content" style="text-align: center;">
+            <p>&copy; 2027 Eventi2027.it - <a href="index.html">Torna alla Home</a></p>
+        </div>
+    </footer>
+</body>
+</html>

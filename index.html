@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventi2027 | Le migliori opportunità e gli eventi imperdibili</title>
+    <meta name="description" content="Scopri i migliori eventi sportivi, concerti, offerte esclusive come il Prime Day e opportunità di viaggio. Resta aggiornato con Eventi2027.">
+    <!-- Google Fonts per una tipografia moderna -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Outfit:wght@500;700;900&display=swap" rel="stylesheet">
+    <!-- Fogli di stile -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                Eventi<span>2027</span>
+            </a>
+            
+            <!-- Bottone Menu per Mobile -->
+            <button class="mobile-menu-btn" id="mobile-menu-btn">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+            </button>
+
+            <!-- Link di navigazione -->
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">Concerti</a></li>
+                <li><a href="#">Sport</a></li>
+                <li><a href="#">Offerte Prime</a></li>
+                <li><a href="#">Viaggi</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <header class="hero">
+        <div class="hero-bg-glow"></div>
+        <div class="container hero-content">
+            <span class="badge">Esplora. Vivi. Risparmia.</span>
+            <h1>Non perderti il<br> <span class="text-gradient">tuo prossimo evento</span></h1>
+            <p>Dalle finali sportive ai mega sconti del Prime Day, fino ai concerti più esclusivi. Trova l'ispirazione per la tua prossima avventura.</p>
+            <div class="hero-actions">
+                <a href="#eventi" class="btn btn-primary">Scopri gli Eventi</a>
+                <a href="#offerte" class="btn btn-secondary">Ultime Offerte</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- SEZIONE EVENTI IN EVIDENZA -->
+    <main class="container section" id="eventi">
+        <div class="section-header">
+            <h2>Ultime Novità & Opportunità</h2>
+            <p>Selezionati apposta per te. Prenota o acquista prima che finiscano.</p>
+        </div>
+
+        <!-- GRIGLIA EVENTI (Qui copierai e incollerai le "card" per aggiungere contenuti) -->
+        <div class="events-grid">
+            
+            <!-- CARD ESEMPIO 1: Evento Sportivo -->
+            <article class="event-card">
+                <div class="card-img-wrapper">
+                    <!-- Sostituisci l'URL con l'immagine del tuo evento -->
+                    <img src="https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Stadio">
+                    <div class="category-tag sport">Sport</div>
+                </div>
+                <div class="card-content">
+                    <h3>Finale di Champions League 2027</h3>
+                    <p class="date">📅 29 Maggio 2027 • Milano</p>
+                    <p class="description">Assicurati ora i biglietti e l'hotel per uno degli eventi calcistici più attesi dell'anno. Prezzi in salita!</p>
+                    <a href="event-template.html" class="btn btn-outline">Vedi Dettagli & Prenota</a>
+                </div>
+            </article>
+
+            <!-- CARD ESEMPIO 2: Offerta Prime Day -->
+            <article class="event-card">
+                <div class="card-img-wrapper">
+                    <img src="https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Scatole Prime">
+                    <div class="category-tag deal">Offerte</div>
+                </div>
+                <div class="card-content">
+                    <h3>Amazon Prime Day 2027</h3>
+                    <p class="date">📅 Luglio 2027 • Online</p>
+                    <p class="description">Preparati al più grande evento di shopping dell'anno. Abbiamo selezionato le migliori offerte su tech, viaggi e tempo libero.</p>
+                    <!-- Inserirai qui un link diretto alla pagina dettaglio o il tuo link affiliato -->
+                    <a href="event-template.html" class="btn btn-outline">Scopri le Offerte</a>
+                </div>
+            </article>
+
+            <!-- CARD ESEMPIO 3: Concerto -->
+            <article class="event-card">
+                <div class="card-img-wrapper">
+                    <img src="https://images.unsplash.com/photo-1459749411175-04bf5292ceea?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Concerto">
+                    <div class="category-tag music">Musica</div>
+                </div>
+                <div class="card-content">
+                    <h3>Tour Mondiale: I grandi classici</h3>
+                    <p class="date">📅 15 Settembre 2027 • Roma</p>
+                    <p class="description">Un'esperienza indimenticabile al Circo Massimo. I biglietti stanno andando a ruba, prenota il tuo posto e l'alloggio vicino.</p>
+                    <a href="event-template.html" class="btn btn-outline">Vedi Dettagli & Prenota</a>
+                </div>
+            </article>
+
+        </div>
+    </main>
+
+    <!-- FOOTER (Importante per il disclaimer affiliazioni) -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <a href="#" class="logo">Eventi<span>2027</span></a>
+                <p>Il portale per non perdere nessuna opportunità.</p>
+            </div>
+            <div class="footer-legal">
+                <h4>Informazioni Legali</h4>
+                <p>
+                    <strong>Disclaimer Affiliazioni:</strong> In qualità di Affiliato (es. Amazon, Booking.com, TicketOne) questo sito riceve un guadagno dagli acquisti idonei generati tramite i link presenti nella pagina, senza alcun costo aggiuntivo per l'utente.
+                </p>
+                <div class="legal-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Cookie Policy</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2027 Eventi2027.it - Tutti i diritti riservati.</p>
+        </div>
+    </footer>
+
+    <!-- Script per le interazioni -->
+    <script src="script.js"></script>
+</body>
+</html>
